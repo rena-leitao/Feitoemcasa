@@ -1,0 +1,79 @@
+As a guest I can view offers
+As a guest I can sign up
+As a guest I can sign in
+As a user I can view offers
+As a user I can log out
+As a user I can buy an offer
+As a user I can donate an offer
+As a user I can sell an offer
+As a user I can update my profile information
+As a user I can CRUD my offer
+As a user I can talk to other users
+As a user I can review an offer
+As a user I can report an offer
+As a user I can block another user
+As an admin I can block another user from system
+
+
+Models
+    Message
+    Transation
+    Review
+    User
+    Offer
+Models
+
+Views
+    Message
+        show
+    Transation
+        show
+    Review
+        show
+        new
+    User
+        DEVICE
+    Offer
+        show
+        new
+        edit
+Views
+
+Controllers
+    Messages
+        show
+        new
+        create
+        delete
+    Transations
+        show
+        new
+        create
+        delete
+    Reviews
+        show
+        new
+        create
+        edit
+        update
+        delete
+    Users
+        DEVICE
+    Offers
+        show
+        new
+        create
+        edit
+        update
+        delete
+Controllers
+
+Seeds
+
+Cloudnary
+
+Google Maps
+
+Heroku
+
+
