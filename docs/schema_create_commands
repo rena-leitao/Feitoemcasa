@@ -1,0 +1,9 @@
+rails generate model Offer title:string description:string photo:string address:string available:string price:integer
+
+
+review:references
+
+
+rails generate model Transaction name:string stars:integer
+rails generate model Review name:string stars:integer
+rails generate model Message name:string stars:integer
