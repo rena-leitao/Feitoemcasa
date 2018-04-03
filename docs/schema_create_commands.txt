@@ -1,7 +1,6 @@
-rails generate model Offer title:string description:string photo:string address:string available:string price:integer
+rails generate model Offer title:string description:string photo:string address:string available:string price:integer user:references
 
 
-review:references
 
 
 rails generate model Transaction name:string stars:integer
