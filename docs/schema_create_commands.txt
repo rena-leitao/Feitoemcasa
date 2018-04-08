@@ -1,0 +1,7 @@
+rails generate model Offer title:string description:string photo:string address:string available:string price:integer user:references
+
+rails generate model Transaction rolou_buyer:string rolou_seller:string user:references offer:references
+
+rails generate model Review title:string text:string stars:integer transaction:references
+
+rails generate model Message text:string transaction:references
